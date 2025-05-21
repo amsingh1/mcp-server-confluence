@@ -1,0 +1,40 @@
+{
+  "name": "@modelcontextprotocol/server-confluence",
+  "version": "0.1.0",
+  "description": "MCP server for Confluence API operations",
+  "main": "build/index.js",
+  "bin": {
+    "mcp-server-confluence": "./build/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/mcp-server-confluence.git"
+  },
+  "keywords": [
+    "mcp",
+    "confluence",
+    "atlassian",
+    "modelcontextprotocol"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "node-fetch": "^3.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
