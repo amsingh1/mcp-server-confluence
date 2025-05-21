@@ -7,7 +7,6 @@ A Model Context Protocol (MCP) server that provides AI assistants with tools to 
 - Complete CRUD operations for Confluence resources
 - Seamless integration with GitHub Copilot
 - Simple setup process
-- Support for WSL environments
 
 ## 📋 Prerequisites
 
